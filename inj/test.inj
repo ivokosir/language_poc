@@ -1,0 +1,11 @@
+a = 1 + 2 + 3;
+aref = a;
+qwer = aref * (2 + 1) - 4;
+ref = (
+  bo = false or false;
+  test = if bo then 3 + 2 else 2 end;
+  ref = bo or test > 2;
+  ref = true and ref;
+  ref
+);
+"test"

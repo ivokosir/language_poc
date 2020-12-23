@@ -1,0 +1,8 @@
+var a = object { b = object { c = 1 }, d = 1, e = 1 };
+
+print a;
+a.d = a.b;
+a.b = 2;
+a.e = "foo";
+a.f = 2;
+print a;
